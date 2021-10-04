@@ -1,3 +1,15 @@
 <h1>The Black Cat answereth!</h1>
 
+<div>
+  <p>--Your question:</p>
+  <%= @question %>
+</div>
 
+<div>
+  <p>--Black Cat's generous wisdom:</p>
+  <%= @cat_answer %>
+</div>
+
+<div>
+  <%= link_to "Ask Black Cat again? (Careful what you wish for!)", ask_path %>
+</div>
